@@ -17,6 +17,7 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    margin: 0;
    
     
 }
@@ -143,6 +144,9 @@ a{
 
 .container1 {
     display: grid;
+    
+    
+    
 }
 
 
@@ -156,11 +160,14 @@ a{
     color: white;
     text-align: right;
 
+    
+
 }
 
 .fernetlogo {
     grid-column: 2/3;
     grid-row: 1/4;
+   
 }
 
 
@@ -183,7 +190,8 @@ h1 {
     align-self: start;
     padding: 0;
     margin: 0;
-    transform: translate(-90px -150px);
+    transform: translate(-90px -200px);
+    
     
 }
 
