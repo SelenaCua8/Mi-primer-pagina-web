@@ -1,6 +1,6 @@
 * {
    
-    margin: 0;
+    
     box-sizing: border-box;
     font-family: initial;
 }
@@ -9,6 +9,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: black;
 }
 
@@ -603,14 +604,56 @@ footer div img {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 280px 280px;
     
 }
 
-.fotos {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+.absolut{
+    grid-column: 1/1;
+    grid-row: 1/2;
+   
+}
+
+.aboutus{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    font-size: xx-large;
+    align-self: center;
+}
+
+.about-1{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    align-self: end;
+    font-size: large;
+}
+
+.about-2 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    font-size: large;
+}
+
+.curved {
+    position: relative;
+    background: orange;
+    height: 40vh;
+  }
+
+  .curved::after {
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    height: 45%;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
 }
