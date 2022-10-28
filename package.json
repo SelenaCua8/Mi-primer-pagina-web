@@ -1,0 +1,25 @@
+{
+  "name": "clase-0-coder-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path css/probando.scss css/translated.css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelenaCua8/Mi-primer-pagina-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelenaCua8/Mi-primer-pagina-web/issues"
+  },
+  "homepage": "https://github.com/SelenaCua8/Mi-primer-pagina-web#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
