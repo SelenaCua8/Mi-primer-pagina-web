@@ -13,17 +13,11 @@
 
 .logo{
     width: 100px;
-    transform: translateY(-30px);
+    
+    
    
     
 }
-
-
-
-    /* display: flex;
-    flex-direction: row;
-    justify-content: right; */
-    /* transform: translate(-20px, 20px); */
     
 
 
@@ -32,7 +26,7 @@
         display: flex;
   align-items: right;
   justify-content: right;
-  /* height: ; */
+  
   
         position: relative;
         padding: 5px;
@@ -72,6 +66,8 @@
       .buscar input:focus {
         width: 240px;
       }    
+
+      
 
     
 
@@ -576,7 +572,24 @@ transform: translateX(10px);}
   
   .buscar input:focus {
     width: 200px;
-  }    }
+  }   
+
+  .header-navegacion {
+    flex-wrap: wrap;
+    justify-content: center;
+  } 
+
+ 
+
+  /* .hamburger{
+    width: 55px;
+    height: 55px;
+    color: #cacdd2;
+    align-self: right;
+    right: 0;
+  } */
+
+}
 
 @media screen and(min-width: 700px) {
     .wrapper{
