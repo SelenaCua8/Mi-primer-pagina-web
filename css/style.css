@@ -493,9 +493,18 @@ body {
 
 .about {
   padding: 100px;
+  display: flex;
 }
 
 
+
+/*Sobre nosotros*/
+
+
+.absolut{
+  width: 50%;
+  
+}
 
 /*QUERIES*/
 @media screen and (max-width: 480px) {
@@ -531,6 +540,9 @@ transform: translateX(10px);}
     
 }
 
+.absolut{
+  display: none;
+}
 
 
 
