@@ -239,7 +239,8 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 80px;
+    
 }
 
 .coca {
@@ -689,6 +690,7 @@ transform: translateX(10px);}
      .precio-col-header {
       background-color:#333;
       padding:20px;
+      
       border-top-left-radius:10px;
       border-top-right-radius:10px
      }
@@ -769,4 +771,7 @@ transform: translateX(10px);}
 .imagen-lista{
   width: 50%;}
  
+.precio-col{
+  margin: 60px;
   
+}
