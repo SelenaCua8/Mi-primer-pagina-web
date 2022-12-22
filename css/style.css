@@ -1,17 +1,17 @@
-*{
+/* *{
     box-sizing: inherit;
     padding: 0;
     margin: 0;
-}
-.container{
+} */
+/* .container{
     display: flex;
    flex-direction: column;
     background-color: black;
     margin: 0;
     padding: 0;
-}
+} */
 
-.logo{
+/* .logo{
     width: 100px;
     
     
@@ -65,7 +65,7 @@
       
       .buscar input:focus {
         width: 240px;
-      }    
+      }     */
 
       
 
@@ -114,7 +114,7 @@
   } */
   
 
-.header-navegacion{
+/* .header-navegacion{
     display: flex;
     justify-content: space-between;
     padding: 20px; 
@@ -149,11 +149,11 @@ a{
   
   a:active{
     color: gray;
-  }
+  } */
 
 /* FIN HEADER */
 
-.parrafos {
+/* .parrafos {
   margin: 50px;
   padding: 20px;
 }
@@ -176,21 +176,21 @@ a{
 
 .parrafo2{
   margin: 0px 10px 10px 10px;
-}
-.lista{
+} */
+/* .lista{
     border: 1px solid #e38b06; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #eb8221; /*color botón*/
-    color: black; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    font-weight: bold;
+    /* padding: 10px; */ /* espacio alrededor texto */
+    /* background-color: #eb8221; */ /*color botón*/
+    /* color: black; /*color texto*/
+    /* text-decoration: none; */ /*decoración texto*/
+   /*  text-transform: uppercase;  *//*capitalización texto*/
+  /*   font-family: 'Helvetica', sans-serif; */ /*tipografía texto*/
+  /*   font-weight: bold; */
     /* margin: 20px 20px 20px 20px; */
-    /* transform: translateY(-50px); */
+    /* transform: translateY(-50px); */ 
    
 
-}
+
 /*main pero solo parte del fernet*/
 
 
@@ -201,7 +201,7 @@ a{
 
 /*FIN SECTION UNO LA PUTA MADRE*/
 
-.section-2 {
+/* .section-2 {
     
     background-color: black;
     display: grid;
@@ -252,19 +252,19 @@ a{
 
 .ver-mas {
   border: 1px solid #e38b06; /*anchura, estilo y color borde*/
-  padding: 20px; /*espacio alrededor texto*/
-  background-color: #eb8221; /*color botón*/
-  color: black; /*color texto*/
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-  margin: 20px;
-  font-weight: bold;
+  /* padding: 20px; */ /*espacio alrededor texto*/
+ /*  background-color: #eb8221; */ /*color botón*/
+  /* color: black; */ /*color texto*/
+ /*  text-decoration: none; */ /*decoración texto*/
+  /* text-transform: uppercase;  *//*capitalización texto*/
+ /*  font-family: 'Helvetica', sans-serif; */ /*tipografía texto*/
+  /* margin: 20px;
+  font-weight: bold; */
   
-} 
+
 
 /*footer*/
-footer{
+/* footer{
    
     bottom: 0;
     left: 0;
@@ -300,7 +300,7 @@ footer{
 
 
 /*COMIENZO EDIT ICONOS*/
- .footer-icon {
+/*  .footer-icon {
     grid-column: 3/3;
     grid-row: 1/1;
     }
@@ -353,19 +353,19 @@ footer{
     .footer-icon ul li .whatsapp:hover {
         background: var(--whatsapp);
     }  
+ */ 
 
 
 
-
-:root {
+/* :root {
     --facebook: #3b5999;
     --instagram: #e4405f;
     --email: #0077b5;
     --whatsapp: rgb(37, 206, 37);
-}
+} */
     
   /*FORM*/
-  @import url( 'https://fonts.googleapis.com/css?family=Roboto');
+   @import url( 'https://fonts.googleapis.com/css?family=Roboto');
 :root {--fuente-principal: 'Roboto', sans-serif;
 --color-principal: white;
 --bk1: 700px;}
@@ -506,18 +506,18 @@ body {
   display: flex;
 }
 
-
+ 
 
 /*Sobre nosotros*/
-
+/* 
 
 .absolut{
   width: 50%;
   
-}
+} */
 
 /*QUERIES*/
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .section-1{
         display: flex;
         flex-direction: column;
@@ -556,9 +556,9 @@ transform: translateX(10px);}
 
 
 
-} 
+}  */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .buscar {
         align-self: center;
     }
@@ -600,7 +600,7 @@ transform: translateX(10px);}
     flex-wrap: wrap;
     justify-content: center;
   } 
-
+ */
  
 
   /* .hamburger{
@@ -611,9 +611,9 @@ transform: translateX(10px);}
     right: 0;
   } */
 
-}
 
-@media screen and(min-width: 700px) {
+
+ @media screen and(min-width: 700px) {
     .wrapper{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -625,7 +625,7 @@ transform: translateX(10px);}
     .servicios {
     text-align: left;
   }
-}
+} 
 
 /* @media screen and(max-width: 400px){
     .buscador {
@@ -653,17 +653,17 @@ transform: translateX(10px);}
      */
 
 
-    /*Lista de precios*/
-    #tabla-precios {
+    /* /* /*Lista de precios*/
+   /*  #tabla-precios {
       display:inline-block;
       width:100%;
       margin-top:50px;
       background-color: #111;
-     }
+     } */
      
      /*Columnas*/
      
-     .precio-col {
+ /*     .precio-col {
       display:inline-block;
       background-color:white;
       width:100%;
@@ -683,11 +683,11 @@ transform: translateX(10px);}
       .precio-col:last-child {
       margin-right:0
       }
-     }
+     } */
      
      /*Headers*/
      
-     .precio-col-header {
+     /* .precio-col-header {
       background-color:#333;
       padding:20px;
       
@@ -712,11 +712,11 @@ transform: translateX(10px);}
       color:black;
       font-size:14px;
       margin-bottom:0
-     }
+     } */
      
      /*Características*/
      
-     .precio-col-features {
+/*      .precio-col-features {
       padding: 0 20px 20px 20px;
       text-align: center;
       
@@ -733,11 +733,11 @@ transform: translateX(10px);}
      .precio-col-features p:first-child,
      .precio-col-features p:last-child {
       border-top:none
-     }
+     } */
      
      /*Comprar*/
      
-     .precio-col-comprar {
+/*      .precio-col-comprar {
       
       padding:10px;
       max-width:250px;
@@ -774,10 +774,10 @@ transform: translateX(10px);}
 .precio-col{
   margin: 60px;
   
-}
+} */
 
 
-.preguntas-frecuentes{
+/* .preguntas-frecuentes{
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -787,4 +787,4 @@ transform: translateX(10px);}
 .envios{
   margin: 40px;
 }
-
+ */

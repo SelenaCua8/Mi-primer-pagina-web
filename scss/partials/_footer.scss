@@ -1,0 +1,95 @@
+
+
+footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+    content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;}
+
+        h3{
+            font-size: 2.1rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            line-height: 3rem;
+        }
+        p{
+            max-width: 500px;
+            margin: 10px auto;
+            line-height: 28px;
+            font-size: 14px;
+            color: #cacdd2;
+        }
+        
+}
+
+
+
+
+
+
+/*COMIENZO EDIT ICONOS*/
+.footer-icon {
+    grid-column: 3/3;
+    grid-row: 1/1;
+    }
+
+    .footer-icon {
+        display: flex;
+       
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-icon ul li {
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .footer-icon ul li a {
+        display: block;
+        padding: 0 10px;
+        background: #111;
+        color: white;
+        line-height: 50px;
+        font-size: 18px;
+       box-shadow: 0 3px 5px 0px rgba(0,0,0,0.2);
+        transition: .2s;
+    }
+
+    .footer-icon ul:hover a {
+        filter: blur(2px);
+    }
+
+    .footer-icon ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 3px 5px 0px rgba(0,0,0,0.4);
+        filter: none;
+    }
+
+   
+    .footer-icon ul li .facebook:hover {
+        background: #3b5999;
+    }  
+    .footer-icon ul li .instagram:hover {
+        background:  #e4405f;
+    }  
+    .footer-icon ul li .email:hover {
+        background: #0077b5;
+    }  
+    .footer-icon ul li .whatsapp:hover {
+        background:rgb(37, 206, 37);
+    }  
